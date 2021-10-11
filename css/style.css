@@ -192,6 +192,7 @@
 #section6 li{
     line-height: 26px;
     letter-spacing: 0.096em;
+    font-style: italic;
 }
 @media only screen and (max-width:500px){
     #section6 li{
@@ -204,11 +205,9 @@
     #section6 h2{
         font-weight: 600;
         font-size:20px;
-    
     }
 
 }
 #section6 h2{
     font-weight: 700;
-
 }
