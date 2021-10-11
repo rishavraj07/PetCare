@@ -163,7 +163,6 @@
     font-size:large;
 }
 #blog-sec-2{
-    padding-top: 69px;
     padding-bottom: 69px;
 }
 #blog p{
@@ -188,13 +187,25 @@
 /* section6 */
 #section6{
     background-color:#daac00 ;
-    padding:20px 0px;
     color:white;
 }
 #section6 li{
     line-height: 26px;
     letter-spacing: 0.096em;
+}
+@media only screen and (max-width:500px){
+    #section6 li{
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0.067em;
+    font-weight: 600;
+    font-style: italic;
+    }
+    #section6 h2{
+        font-weight: 600;
+        font-size:20px;
     
+    }
 
 }
 #section6 h2{
